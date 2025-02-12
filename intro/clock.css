@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'DS-Digital';  /* 任意のフォント名を指定 */
+  src: url('DS-DIGIB.TTF') format('truetype');
+}
+
+/* 時計のフォントを変更 */
+#clock {
+  font-family: 'DS-Digital';  /* ここで指定したフォントを使用 */
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  span {
+    display: inline-block;
+    width: 50px;
+  }
+  
+  #clock {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 48px;
+    cursor: pointer;
+  }
+  
+  #time {
+    color: gold;
+  }
+
+  #clock p {
+    margin: 0;
+  }  
+
+  #format {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
